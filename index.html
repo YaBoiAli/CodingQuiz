@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <div id="main" >
+        <h1 id="text">Coding Quiz Challenge</h1>
+        <h2 id="summary">Try to answer the following code-related questions within the time limit.
+            Keep in mind that incorrect answers will penalize your score and </br>time by 10 seconds
+        </h2>
+        <button id="start">Start Quiz</button>
+        <button id="showHscore" class="btnHigh">Show Highscores!</button>
+        <button id="hideScores">Hide Scores</button>
+    </div>
+    <div id="app" class="hide">
+      <h1>Coding Quiz Challenge</h1>
+      <h2 id="timer">Timer: <span id="time">0</span></h2>
+      <div class="quiz">
+        <h2 id="question">Question Goes here</h2>
+        <div id="answer-buttons">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+        <button id="next-button">Next</button>
+      </div>
+      <button id="showHscore" class="btnHigh">Show Highscores!</button>
+    </div>
+    <div id="endQuiz" class="hide">
+      <h1>All Done!</h1>
+      <P style="font-size: 15px;">Initials:</P><input type="text" id="name" name="name" required minlength="2" maxlength="2" size="10">
+      <button id="savescore" class="btnScore">Save Highscore!</button>
+    </div>
+    <div id="showhighscore" class="hide">
+      <h1>High Scores:</h1>
+      <p>Can Add as many as you want! It will only save the one that was recorded at the first click! Refresh to see ✨MAGIC✨</p>
+      <ol id="myList">
+      </ol>
+      <button id="clear" class="btnClear">Clear Scores</button>
+    </div>
+    <script src="./assets/JS/script.js"></script>
+  </body>
+</html>
