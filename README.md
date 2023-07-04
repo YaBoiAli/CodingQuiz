@@ -24,7 +24,7 @@ To install and run the Code Quiz, you can follow these steps:
 
 ## Screenshots and Links
 
-([https://yaboiali.github.io/BcChallenge4/])
+([https://yaboiali.github.io/CodingQuiz/])
 
 ![Code Quiz Screenshot](https://github.com/YaBoiAli/BcChallenge4/assets/90220760/a589e851-8d6d-463c-a769-728fabec2961.png)
 
